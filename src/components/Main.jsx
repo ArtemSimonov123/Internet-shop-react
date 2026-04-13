@@ -1,13 +1,7 @@
 import ProductCard from './ProductCard'
 
 function Main({ products }) {
-  const scrollToCatalog = () => {
-    const section = document.getElementById('catalog')
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' })
-    }
-  }
-
+  
   return (
     <main className="main">
       <div className="container">
@@ -16,10 +10,6 @@ function Main({ products }) {
           <p className="main-text">
             Ласкаво просимо в інтернет-магазин.
           </p>
-
-          <button className="catalog-button" onClick={scrollToCatalog}>
-            Перейти в каталог
-          </button>
         </section>
 
         <section className="catalog-section" id="catalog">
