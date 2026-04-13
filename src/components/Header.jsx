@@ -6,7 +6,7 @@ function Header() {
 
         <nav className="nav">
           <a href="#" className="nav-link">Головна</a>
-          <a href="#" className="nav-link">Каталог</a>
+          <a href="#catalog" className="nav-link">Каталог</a>
           <a href="#" className="nav-link">Про проєкт</a>
         </nav>
       </div>
